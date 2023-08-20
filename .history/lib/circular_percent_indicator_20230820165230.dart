@@ -199,7 +199,7 @@ class _CircularPercentIndicatorState extends State<CircularPercentIndicator>
     } else {
       _updateProgress();
     }
-    _diameter = widget.radius ;
+    _diameter = widget.radius * 2;
     super.initState();
   }
 
